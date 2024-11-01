@@ -1,22 +1,22 @@
-//let square1;
-
-
-function setup() {
-    createCanvas(400, 400);
-  }
-  
-  function draw() {
-    background(220);
-    fill(255, 0, 0);
-    square(200, 200, 50);
-  }
-//THE ABOVE WORKS WITH A RED SQUARE -ok
-//Step 2. .i need to use class to put it inside SETUP
-
-
-
 
 /*
+function setup() {
+    createCanvas(400, 400);
+    }
+    
+    function draw() {
+        background(220);
+        fill(255, 0, 0);
+        square(200, 200, 50);
+        }
+//THE ABOVE WORKS WITH A RED SQUARE -ok
+//Step 2. .i need to use class to put it inside SETUP
+*/
+       
+       
+let square1;
+
+
 function setup() {
   createCanvas(400, 400); // Crea un lienzo de 400x400 píxeles
   square1 = new Square(100, 100, 5,color(0, 0, 255));
