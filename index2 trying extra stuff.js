@@ -1,3 +1,5 @@
+////// extra copy for me to change stuff and try on my own
+
 /*
 function setup() {
     createCanvas(400, 400);
@@ -24,7 +26,7 @@ function draw() {
   square1.display();
 }
 
-class Square {
+class Circle {
   constructor(x, y, w, col) {
     this.x = x;
     this.y = y;
